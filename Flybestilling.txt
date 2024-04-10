@@ -1,0 +1,62 @@
+Du skal lage en side for bestilling av flyreiser
+
+del gjerne siden inn i 3 hoveddeler ved å bruke de semantiske elementene
+
+	<header>
+		
+		... innhold
+		
+	</header>
+
+	<main>
+
+		...innhold
+
+	</main>
+
+	<footer>
+
+		...innhold
+
+	</footer>
+
+
+Vi skal bruke flest mulig html-elementer. Blant annet har vi bruk for input-felter til
+
+* fornavn
+* etternavn
+* adresse
+* postnummer
+* epost
+* telefonnummer
+
+* Du skal kunne velge flyplass du reiser fra i en nedtrekksmeny
+
+og hvor du skal til i en annen nedtrekksmeny
+
+* Bruker skal også kunne velge utreisedato i en date-picker
+
+* En skal kunne velge om en enten er barn, voksen, eller honnør vha radiobuttons
+
+* og en skal kunne velge om en ønsker 
+
+-billig billett
+-flex billett
+-super flex
+
+* Brukeren skal også kunne krysse av om en ønsker å få tilsendt tilbud eller annen info( nyhetsbrev)
+
+-------------------------------------------------------------------------------
+
+Prøv også å finne 2 andre html-elementer du ikke har brukt som du kan legge til
+
+se 
+	https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+
+for flere elementer
+
+bruk også 
+
+	https://www.w3schools.com/tags/
+
+som kilde
