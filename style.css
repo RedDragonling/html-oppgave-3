@@ -57,7 +57,24 @@ main {
   }
 }
 
+.order-ticket-box {
+  background-color: red;
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .seperate-input {
+      display: flex;
+      flex-direction: row;
+    }
+  }
+}
+
 label span {
+  display: flex;
+}
+
+.flex {
   display: flex;
 }
 

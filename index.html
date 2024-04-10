@@ -23,46 +23,54 @@
     <p>Her kan du bestille flyreisen din. Oppgi riktig informasjon. Når du har valgt reisen som passer deg, kan du raskt og enkelt kjøpe billett.</p>
     <div class="order-ticket-box">
       <form>
-        <label>
-          <span>Fornavn</span>
-          <input type="text" name="firstname" />
-        </label>
-        <label>
-          <span>Etternavn</span>
-          <input type="text">
-        </label>
-        <label>
-          <span>Addresse</span>
-          <input type="text">
-        </label>
-        <label>
-          <span>Postnummer</span>
-          <input type="text">
-        </label>
-        <label>
-          <span>Epost</span>
-          <input type="text">
-        </label>
-        <label>
-          <span>Telefonnummer</span>
-          <input type="text">
-        </label>
-        <label>
-          <span>Velg hvor du reiser fra</span>
-          <select>
-            <option value="">Gardemoen</option>
-            <option value="">Torp</option>
-            <option value="">Flesland</option>
-          </select>
-        </label>
-        <label>
-          <span>Velg hvor du reiser til</span>
-          <select>
-            <option value="">Gardemoen</option>
-            <option value="">Torp</option>
-            <option value="">Flesland</option>
-          </select>
-        </label>
+        <div class="seperate-input">
+          <label>
+            <span>Fornavn</span>
+            <input type="text" name="firstname" />
+          </label>
+          <label>
+            <span>Etternavn</span>
+            <input type="text">
+          </label>
+        </div>
+        <div class="seperate-input">          
+          <label>
+            <span>Addresse</span>
+            <input type="text">
+          </label>
+          <label>
+            <span>Postnummer</span>
+            <input type="text">
+          </label>
+        </div>
+        <div class="seperate-input">
+          <label>
+            <span>Epost</span>
+            <input type="text">
+          </label>
+          <label>
+            <span>Telefonnummer</span>
+            <input type="text">
+          </label>
+        </div>
+        <div class="seperate-input">
+          <label>
+            <span>Velg hvor du reiser fra</span>
+            <select>
+              <option value="">Gardemoen</option>
+              <option value="">Torp</option>
+              <option value="">Flesland</option>
+            </select>
+          </label>
+          <label>
+            <span>Velg hvor du reiser til</span>
+            <select>
+              <option value="">Gardemoen</option>
+              <option value="">Torp</option>
+              <option value="">Flesland</option>
+            </select>
+          </label>
+        </div>
         <label>
           <span>Velg en dato for din reise</span>
           <input type="date"/>
@@ -80,13 +88,13 @@
           <input type="radio"/>Flex
           <input type="radio"/>Super-flex
         </label>
-        <label>
-          <span>Jeg har lest og godkjent vilkårene til Flye flyselskap</span>
+        <label class="flex">
           <input type="checkbox">
+          Jeg har lest og godkjent vilkårene til Flye flyselskap
         </label>
         <label>
-          <span>Jeg vil melde meg på nyhetsbrev for Flye flyselskap for framtidie deals</span>
           <input type="checkbox">
+          Jeg vil melde meg på nyhetsbrev for Flye flyselskap for framtidie deals
         </label>
       </form>
     </div>
