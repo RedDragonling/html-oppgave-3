@@ -59,6 +59,11 @@ main {
 
 .order-ticket-box {
   /* background-color: red; */
+  box-shadow: 0 0 5px var(--shadow);
+  border-radius: 2em;
+  margin-top: 1em;
+  padding: 1em 0;
+  background: linear-gradient(var(--tert-color) 0%,var(--main-color) 20%);
   form {
     display: flex;
     flex-direction: column;
@@ -72,10 +77,27 @@ main {
       display: flex;
       flex-direction: column;
       align-items: center;
-      select {
-        color: red;
-        font-size: large;
+      input {
+        margin: 0 1em;
       }
+      select {
+        text-align: center;
+        font-size: 1.5rem;
+      }
+    }
+    button {
+      font-size: 1.5rem;
+      padding: 1em 4em;
+      color: var(--main-color);
+      background-color: var(--sec-color);
+      border: none;
+      border-radius: 1em;
+    }
+    button:hover {
+      background-color: var(--tert-color);
+    }
+    button:active {
+      background-color: var(--font-color);
     }
   }
 }
