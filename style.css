@@ -57,6 +57,10 @@ main {
   }
 }
 
+label span {
+  display: flex;
+}
+
 footer {
   background-color: var(--sec-color);
   padding: 1em;
